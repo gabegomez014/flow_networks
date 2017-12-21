@@ -1,0 +1,14 @@
+digraph g{
+
+rankdir = LR
+
+1 -> 2 [label = " 5/12 "];
+2 -> 3 [label = " 5/19 "];
+3 -> 4 [label = " 5/20 "];
+4 -> 5 [label = " 5/10 "];
+5 -> 6 [label = " 5/17 "];
+6 -> 7 [label = " 5/20 "];
+7 -> 8 [label = " 5/5 "];
+
+label = "graph 01maxedgeA: maximum flow = 5, runtime to calculate flow = 0.00016427040100097656 "
+}

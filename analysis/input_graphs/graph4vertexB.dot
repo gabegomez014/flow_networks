@@ -1,0 +1,30 @@
+digraph g{
+
+rankdir = LR
+
+1 -> 2 [label = " 20 "];
+2 -> 3 [label = " 10 "];
+3 -> 4 [label = " 15 "];
+4 -> 5 [label = " 19 "];
+5 -> 6 [label = " 20 "];
+6 -> 7 [label = " 7 "];
+7 -> 8 [label = " 20 "];
+8 -> 9 [label = " 18 "];
+9 -> 10 [label = " 9 "];
+2 -> 11 [label = " 12 "];
+11 -> 7 [label = " 6 "];
+5 -> 12 [label = " 17 "];
+12 -> 10 [label = " 9 "];
+4 -> 13 [label = " 12 "];
+13 -> 10 [label = " 6 "];
+11 -> 14 [label = " 15 "];
+14 -> 8 [label = " 17 "];
+9 -> 15 [label = " 20 "];
+15 -> 7 [label = " 7 "];
+11 -> 16 [label = " 16 "];
+16 -> 12 [label = " 14 "];
+12 -> 17 [label = " 10 "];
+17 -> 5 [label = " 5 "];
+
+label = "graph 04vertexB"
+}

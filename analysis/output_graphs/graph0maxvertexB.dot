@@ -1,0 +1,16 @@
+digraph g{
+
+rankdir = LR
+
+1 -> 2 [label = " 7/20 "];
+2 -> 3 [label = " 7/10 "];
+3 -> 4 [label = " 7/15 "];
+4 -> 5 [label = " 7/19 "];
+5 -> 6 [label = " 7/20 "];
+6 -> 7 [label = " 7/7 "];
+7 -> 8 [label = " 7/20 "];
+8 -> 9 [label = " 7/18 "];
+9 -> 10 [label = " 7/9 "];
+
+label = "graph 00maxvertexB: maximum flow = 7, runtime to calculate flow = 0.0001354217529296875 "
+}

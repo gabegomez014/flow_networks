@@ -1,0 +1,10 @@
+digraph g{
+
+rankdir = LR
+
+5 -> 10 [label = " 11/16 "];
+1 -> 5 [label = " 11/18 "];
+10 -> 11 [label = " 11/11 "];
+
+label = "graph 07: maximum flow = 11 "
+}
